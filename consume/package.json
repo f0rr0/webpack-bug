@@ -1,0 +1,16 @@
+{
+  "name": "consume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf ./build",
+    "build": "npm run clean && `npm bin`/webpack --env.prod",
+    "start": "node ./main.build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.1.0-beta.19"
+  }
+}

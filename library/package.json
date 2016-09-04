@@ -1,0 +1,17 @@
+{
+  "name": "koa-webpack-boilerplate",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "rm -rf ./build",
+    "build": "npm run clean && `npm bin`/webpack --env.prod"
+  },
+  "author": "Siddharth Jain <sid26@ucla.edu>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sidjain26/koa-webpack-boilerplate"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^2.1.0-beta.19"
+  }
+}
